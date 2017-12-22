@@ -105,3 +105,4 @@ ENV/
 
 # Project related output
 test_videos_output/
+test_images_output/
