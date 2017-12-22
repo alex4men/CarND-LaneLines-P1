@@ -102,3 +102,6 @@ ENV/
 
 # MacOS related files
 .DS_Store
+
+# Project related output
+test_videos_output/
