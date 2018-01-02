@@ -13,7 +13,7 @@
 
 ### Reflection
 
-### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
+### 1. Pipeline description. Draw_lines() modifications.
 
 My pipeline consisted of 5 steps:
 
@@ -48,7 +48,7 @@ And I've somehow fixed it by applying simplified version of Kalman filter with f
 
 As we see on the picture, although it works better, but there is a lot of room to improvements.
 
-### 2. Identify potential shortcomings with your current pipeline
+### 2. Potential shortcomings with current pipeline
 
 One potential shortcoming would be when lane lines are curved, or have different slope than my algorithm expects, or not visible enough, or there is some sign on the asphalt. My algorithm will give some wrong estimation of the lane lines.
 
@@ -57,7 +57,7 @@ Another shortcoming could be if the car engage lane switch, one of the lines wil
 Finally, this pipeline is quite intolerant to road defects, shadows, camera placement, image resolution and unexpected conditions. Need to improve it to use in real life :)
 
 
-### 3. Suggest possible improvements to your pipeline
+### 3. Possible improvements to my pipeline
 
 A possible improvement would be to work in HSV space instead of RGB to better filter yellow and white colours.
 
