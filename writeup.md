@@ -36,7 +36,7 @@ And left only with these Canny edges:
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by collecting all coordinates of negative and positive sloped lines in separated lists and then making linear regression on these points, using np.polyfit() function.
 
-With good dataset, like the first two videos, this algorithm of line extrapolation worked perfectly. But on optional dataset there is a lot of wrong edges, caused by poor asphalt and car's hood.
+With good dataset, like the first two videos, this algorithm of line extrapolation worked perfectly. But on optional dataset there was a lot of wrong edges, caused by poor asphalt and car's hood.
 ![failure][image6]
 
 Filtering slope of lane lines to be near the average from previous two videos, helped to solve the problem of complete line extraction failure.
